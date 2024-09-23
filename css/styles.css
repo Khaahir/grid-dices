@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice{
+    background: wheat;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1rem);
+    grid-template-rows: 1rem 1rem 1rem;
+    
+}
+/* .dice aside{} dice klassen kommer ändra alla aside-element som är direkt läkade till .dice */
+ aside{
+    background: #222;
+    border-radius: 99rem;
+    display: none;
+    
+}
+
+.dots-1 .dot1{
+    display: block;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.dots-2 aside:nth-child(1) {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.dots-2 aside:nth-child(2){
+ display:block;
+ grid-column: 3/4;
+ grid-row: 3/4;
+}
+
+.dots-3 aside:nth-child(1){
+    display: block;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.dots-3 aside:nth-child(2){
+    display: block;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.dots-3 aside:nth-child(3){
+    display: block;
+        grid-column:3/4;
+        grid-row: 3/4;
+    }
+
+.dots-4 aside:nth-child(1){
+    display: block;
+    grid-column:1/2;
+    grid-row: 1/2;
+}
+
+.dots-4 aside:nth-child(2){
+    display: block;
+    grid-column:1/2;
+    grid-row: 3/4;
+}
+.dots-4 aside:nth-child(3){
+    display: block;
+    grid-column:3/4;
+    grid-row: 3/4;
+}
+.dots-4 aside:nth-child(4){
+    display: block;
+    grid-column:3/4;
+    grid-row: 1/2;
+}
+
+.dots-5 aside:nth-child(1){
+    display: block;
+    grid-column:1/2;
+    grid-row: 1/2;
+}
+
+.dots-5 aside:nth-child(2){
+    display: block;
+    grid-column:1/2;
+    grid-row: 3/4;
+}
+.dots-5 aside:nth-child(3){
+    display: block;
+    grid-column:3/4;
+    grid-row: 3/4;
+}
+.dots-5 aside:nth-child(4){
+    display: block;
+    grid-column:3/4;
+    grid-row: 1/2;
+}
+
+.dots-5 aside:nth-child(5){
+    display: block;
+    grid-column:2/3;
+    grid-row: 2/3;
+}
+
+.dots-6 aside:nth-child(1){
+    display: block;
+    grid-column:1/2;
+    grid-row: 1/2;
+}
+
+.dots-6 aside:nth-child(2){
+    display: block;
+    grid-column:2/3;
+    grid-row: 1/2;
+}
+
+.dots-6 aside:nth-child(3){
+    display: block;
+    grid-column:3/4;
+    grid-row: 1/2;
+}
+.dots-6 aside:nth-child(4){
+    display: block;
+    grid-column:1/2;
+    grid-row: 3/4;
+}
+.dots-6 aside:nth-child(5){
+    display: block;
+    grid-column:2/3;
+    grid-row: 3/4;
+}
+
+.dots-6 aside:nth-child(6){
+    display: block;
+    grid-column:3/4;
+    grid-row: 3/4;
+}
+
+
+
+
